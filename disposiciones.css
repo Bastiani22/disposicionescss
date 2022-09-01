@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 2;
+}
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    
+}
+.img-galeria{
+    width: 300px;
+}
+.img-galeria:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
